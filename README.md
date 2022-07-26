@@ -2,7 +2,6 @@
 
 <p>
 This would be tactical game between a player and the computer. Current plan is to use C++ OOP to create a simulated football game.
-
 </p>
 
 <h2>Expected Main Features:</h2>
