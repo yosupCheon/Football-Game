@@ -14,6 +14,8 @@ User decides starting 11 players, formations, and tactics (offensive, defensive)
 <li>During the game a user can manage team; substitute players, change tactics and formation.</li>
 <li>Final score such as "2:1" will be displayed after the game</li>
 <li>A user to choose to replay with different team or exit</li>
+</ul>
+<ul>
 Other features:
 <li>a user can edit team and a player</li>
 <li>a user can add a new player</li>
