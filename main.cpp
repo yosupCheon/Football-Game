@@ -1,6 +1,6 @@
-#include "Player.h"
-#include "Team.h"
-#include "Simulation.h"
+#include "classes/Player.h"
+#include "classes/Team.h"
+#include "classes/Simulation.h"
 
 #include <iostream>
 #include <string>
