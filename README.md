@@ -29,6 +29,18 @@ Other features:
 
 <h2>Console Demo (July 31, 2022)</h2>
 <h4>How to Start</h4>
-<h4>Screen Shot </h4>
+In terminal, where the project directory, run the following command
+<pre><code>./footBall</code></pre>
+If not working, then
+<pre><code>make</code></pre>
+<pre><code>./footBall</code></pre>
 
+<h4>Screen Shot </h4>
+![firstImg](src/img/first.png)
+players and teams are pre-defined in the main.cpp.
+Expected features are not yet implemented.
+Current version only simulate pre-defined teams and simulate by itself.
+
+
+<br>
 updated: July 31, 2022
