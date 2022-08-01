@@ -38,7 +38,7 @@ If not working, then
 <h4>Screen Shot </h4>
 
 ![demo](src/img/first.png)
-players and teams are pre-defined in the main.cpp.
+Players and teams are pre-defined in the main.cpp.
 Expected features are not yet implemented.
 Current version only simulate pre-defined teams and simulate by itself.
 
