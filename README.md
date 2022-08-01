@@ -36,6 +36,7 @@ If not working, then
 <pre><code>./footBall</code></pre>
 
 <h4>Screen Shot </h4>
+
 ![demo](src/img/first.png)
 players and teams are pre-defined in the main.cpp.
 Expected features are not yet implemented.
