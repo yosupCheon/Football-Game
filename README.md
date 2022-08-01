@@ -37,10 +37,11 @@ If not working, then
 
 <h4>Screen Shot </h4>
 ![firstImg](src/img/first.png)
+<br>
 players and teams are pre-defined in the main.cpp.
 Expected features are not yet implemented.
 Current version only simulate pre-defined teams and simulate by itself.
 
 
-<br>
+<br><br>
 updated: July 31, 2022
