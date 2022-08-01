@@ -43,6 +43,8 @@ int main () {
     //cout << cheUTD.overAllGetter() << endl;
 
     //game simulate
+    // first parameter is home (adds +5 to the overall)
+    // the result is return by the team's player's overall
     Simulation round1 (manFC, cheUTD);
     Simulation round2 (cheUTD, manFC);
 
