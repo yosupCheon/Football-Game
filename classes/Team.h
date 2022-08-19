@@ -18,6 +18,7 @@ public:
     string nameGetter ();
     void playersGetter ();
     int overAllGetter ();
+    void overAllSetter (int n);
 
     void addPlayer(Player plr);
     
@@ -27,6 +28,7 @@ private:
     int playersLim = 14;
     int curPlayers = 0;
     int teamOverall;
+
 
     void overAllCal (Player plr);
 };

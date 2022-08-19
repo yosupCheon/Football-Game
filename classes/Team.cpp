@@ -1,10 +1,10 @@
 #include "Team.h"
+#include "Simulation.h"
 
 #include <iostream>
 
 // (Default) Constructor
 Team::Team() {
-
 }
 
 Team::Team(string name) {
@@ -39,6 +39,11 @@ void Team::playersGetter () {
 
 int Team::overAllGetter () {
     return teamOverall;
+}
+
+void Team::overAllSetter (int n) {
+    this->teamOverall += n;
+    //teamOverall += n;
 }
 
 void Team::overAllCal (Player plr) {
