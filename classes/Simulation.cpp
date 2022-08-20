@@ -9,6 +9,7 @@ Simulation::Simulation(){
 
 
 Simulation::Simulation(Team home, Team away){
+    // this is a game loop
     gameState = true;
     while (gameState) {
         gameState = false; // game over

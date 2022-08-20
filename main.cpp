@@ -67,7 +67,7 @@ int main () {
     team1.addPlayer(t1ST2);
     team1.addPlayer(t1ST3);
     //team1.playersGetter();
-    cout << team1.overAllGetter() << endl;
+    //cout << team1.overAllGetter() << endl;
     
     // TEAM 2
     team2.addPlayer(t2GK);
@@ -82,7 +82,7 @@ int main () {
     team2.addPlayer(t2ST1);
     team2.addPlayer(t2ST2);
     //team2.playersGetter();
-    cout << team2.overAllGetter() << endl;
+    //cout << team2.overAllGetter() << endl;
 
     Simulation game (team1, team2);
     cout <<"game over in main" << endl;
