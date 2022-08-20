@@ -11,6 +11,7 @@ This is turn-based strategy football game that a user manage tactics (defensive,
 
 <h2>Game Design & Plans (used tool: Excalidraw)</h2>
 
+![demo](src/img/gamePlan2.png)
 <ul>
 <li>the game screen will be prompted with 5 time lines; 25:00, 45:00, 60:00, 70:00 and 85:00</li>
 <li>each time line, an updated score will be displayed</li>
