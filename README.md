@@ -17,11 +17,18 @@ This is turn-based strategy football game that a user manage tactics (defensive,
 <li>a user can decide one’s tactic by clicking “Manage Team” button</li>
 
 <h2>Game Logic (Currently implementing…)</h2>
-<li>temp</li>
+<li>A team is given a 100 percentage which is a probability that is distributed to 3 sectors; defence, midfield, offence</li>
+<li>If a user’s command is [DEFENSIVE], then the probability of defence is increase so lower probability of getting a score from opponent</li>
+<li>If a user’s command is [BALANCE], then the probability of defence and offence are increase at a moderate level
+</li>
+<li>If a user’s command is [OFFENSIVE], then the probability of offence is increase so higher probability of getting a score to opponent</li>
+<li>Example: if a user choose a [OFFENSIVE] the probability of scoring a goal is increase, but also the probability of defence reduces</li>
 
 <h2>Additional Features:</h2>
 <ul>
 <li>A user can create one’s own team</li>
+<li>A user can create/edit a player</li>
+<li>(after implement game logic) tournament mode will be implemented</li>
 </ul>
 
 <h2>Console Demo (August 19, 2022)</h2>
@@ -34,10 +41,9 @@ If not working, then
 
 <h4>Screen Shot </h4>
 
-![demo](src/img/first.png)
-Players and teams are pre-defined in the main.cpp.
-Expected features are not yet implemented.
-Current version only simulate pre-defined teams and simulate by itself.
+![demo](src/img/second.png)
+![demo](src/img/thrid.png)
+Players and teams are pre-defined in the main.cpp. Currently, it simply compares teams’ overall values and adds a score to whichever team’s overall is higher
 
 
 <br><br>
