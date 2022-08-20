@@ -22,10 +22,10 @@ int main () {
     // GOAL KEEPER [age att def gok]
     Player t1GK ("t1GK", "GK", 35, 10, 20, 84);
     // CENTER BACK
-    Player t1CB1 ("t1CB1", "CB", 30, 35, 80, 25);
-    Player t1CB2 ("t1CB2", "CB", 24, 35, 80, 25);
-    Player t1CB3 ("t1CB3", "CB", 28, 35, 80, 25);
-    Player t1CB4 ("t1CB4", "CB", 25, 35, 80, 25);
+    Player t1CB1 ("t1CB1", "CB", 30, 35, 70, 25);
+    Player t1CB2 ("t1CB2", "CB", 24, 35, 70, 25);
+    Player t1CB3 ("t1CB3", "CB", 28, 35, 70, 25);
+    Player t1CB4 ("t1CB4", "CB", 25, 35, 70, 25);
     // MIDFIELDER
     Player t1MF1 ("t1MF1", "MF", 27, 60, 60, 20);
     Player t1MF2 ("t1MF2", "MF", 25, 60, 60, 20);

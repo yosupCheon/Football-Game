@@ -24,7 +24,7 @@ public:
 
 private:
     bool gameState;
-    int timeLine [4] = {25, 45, 70, 80};
+    int timeLine [5] = {25, 45, 60, 70, 85};
     int homeScore = 0;
     int awayScore = 0;
     char tactic;

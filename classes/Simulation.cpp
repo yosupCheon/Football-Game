@@ -40,16 +40,17 @@ void Simulation::gameGUI (int timeStamp) {
         if (currWinner == 0){cout << "You Won!!!" << endl; }
         else if (currWinner == 1){cout << "You Lose..." << endl; }
         else if (currWinner == 2){cout << "DRAW" << endl; }
+        cout << endl;
     }
-
-    cout << endl;
-    cout << "TEAM MANAGEMENT" << endl;
-    cout << "1. DEFENSIVE" << endl;
-    cout << "2. BALANCE" << endl;
-    cout << "3. OFFENSIVE" << endl;
-    cout << "ENTER YOUR TACTIC! (in keyboard 1, 2, or 3): ";
-    cin >> tactic;
-    cout << endl;
+    else {
+        cout << "TEAM MANAGEMENT" << endl;
+        cout << "1. DEFENSIVE" << endl;
+        cout << "2. BALANCE" << endl;
+        cout << "3. OFFENSIVE" << endl;
+        cout << "ENTER YOUR TACTIC! (in keyboard 1, 2, or 3): ";
+        cin >> tactic;
+        cout << endl;
+    }
 }
 /////////////////////
 /////////////////////
