@@ -42,6 +42,7 @@ If not working, then
 <h4>Screen Shot </h4>
 
 ![demo](src/img/second.png)
+
 ![demo](src/img/thrid.png)
 Players and teams are pre-defined in the main.cpp. Currently, it simply compares teams’ overall values and adds a score to whichever team’s overall is higher
 
