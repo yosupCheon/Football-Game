@@ -18,6 +18,21 @@ This is turn-based strategy football game that a user manage tactics (defensive,
 <li>a user can decide one’s tactic by clicking “Manage Team” button</li>
 </ul>
 
+<h2>Console Demo (August 19, 2022)</h2>
+<h4>How to Start</h4>
+In terminal, where the project directory, run the following command
+<pre><code>./footBall</code></pre>
+If not working, then
+<pre><code>make</code></pre>
+<pre><code>./footBall</code></pre>
+
+<h4>Screen Shot </h4>
+
+![demo](src/img/second.png)
+![demo](src/img/third.png)
+Players and teams are pre-defined in the main.cpp. Currently, it simply compares teams’ overall values and adds a score to whichever team’s overall is higher
+
+
 <h2>Game Logic (Currently implementing…)</h2>
 <ul>
 <li>A team is given a 100 percentage which is a probability that is distributed to 3 sectors; defence, midfield, offence</li>
@@ -34,21 +49,6 @@ This is turn-based strategy football game that a user manage tactics (defensive,
 <li>A user can create/edit a player</li>
 <li>(after implement game logic) tournament mode will be implemented</li>
 </ul>
-
-<h2>Console Demo (August 19, 2022)</h2>
-<h4>How to Start</h4>
-In terminal, where the project directory, run the following command
-<pre><code>./footBall</code></pre>
-If not working, then
-<pre><code>make</code></pre>
-<pre><code>./footBall</code></pre>
-
-<h4>Screen Shot </h4>
-
-![demo](src/img/second.png)
-![demo](src/img/third.png)
-Players and teams are pre-defined in the main.cpp. Currently, it simply compares teams’ overall values and adds a score to whichever team’s overall is higher
-
 
 <br><br>
 updated: August 19, 2022
