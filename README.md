@@ -29,8 +29,9 @@ If not working, then
 
 <h4>Screen Shot </h4>
 
-![demo](src/img/second.png)
-![demo](src/img/third.png)
+![demo](src/img/fourth.png)
+![demo](src/img/fifth.png)
+![demo](src/img/sixth.png)
 Currently, only “Play” option is available and only a user can manage team; opponent is set to default formation (4-3-3) through out the game rounds.
 
 
