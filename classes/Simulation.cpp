@@ -244,7 +244,7 @@ bool Simulation::competition (int userStat, int oppoStat) {
     return false for offend success
     */
     int total = userStat + oppoStat;
-    cout << "user stat = " << userStat << " total = " << total << endl; 
+    //cout << "user stat = " << userStat << " total = " << total << endl; 
     bool scoredOrNot;
     srand((unsigned int)time(NULL));
     int randNum = rand() % 10 + 1;
@@ -255,7 +255,7 @@ bool Simulation::competition (int userStat, int oppoStat) {
                   )+1;
     */
     //cout << "time = " << time(NULL) << endl;
-    cout << "rand = " << randNum << " user = " << float(userStat)/float(total) * 10 +1<< endl;
+    //cout << "rand = " << randNum << " user = " << float(userStat)/float(total) * 10 +1<< endl;
     scoredOrNot = randNum <= float(userStat)/float(total) * 10 +1; // 1~10
 
     return scoredOrNot;
