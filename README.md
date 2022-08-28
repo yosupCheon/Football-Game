@@ -7,15 +7,16 @@ This is turn-based strategy football game that a user manage tactics (defensive,
 <h2>Implementations</h2>
 <li>C++ OOP: </li>
 <li>Classes: Player, Team, Simulation (match)</li>
-<li>raylib GUI tool (planning)</li>
+<li>Manages players using a linked list data structure</li>
+<li>raylib GUI tool (planning/future)</li>
 
 <h2>Game Design & Plans (used tool: Excalidraw)</h2>
 
 ![demo](src/img/gamePlan3.png)
 <ul>
-<li>the game screen will be prompted with 5 time lines; 25:00, 45:00, 60:00, 70:00 and 85:00</li>
-<li>each time line, an updated score will be displayed</li>
-<li>a user can decide one’s tactic by clicking “Manage Team” button</li>
+<li>5 time lines; 25:00, 45:00, 60:00, 70:00 and 85:00</li>
+<li>Each time line, an updated score will be displayed</li>
+<li>A user can decide one’s tactic by clicking/typing “Manage Team” button</li>
 </ul>
 
 <h2>Console Demo (August 19, 2022)</h2>
@@ -30,10 +31,10 @@ If not working, then
 
 ![demo](src/img/second.png)
 ![demo](src/img/third.png)
-Players and teams are pre-defined in the main.cpp. Currently, it simply compares teams’ overall values and adds a score to whichever team’s overall is higher
+Currently, only “Play” option is available and only a user can manage team; opponent is set to default formation (4-3-3) through out the game rounds.
 
 
-<h2>Game Logic (Currently implementing…)</h2>
+<h2>Game Logic</h2>
 <ul>
 <li>A team is given a 100 percentage which is a probability that is distributed to 3 sectors; defence, midfield, offence</li>
 <li>If a user’s command is [DEFENSIVE], then the probability of defence is increase so lower probability of getting a score from opponent</li>
@@ -43,12 +44,22 @@ Players and teams are pre-defined in the main.cpp. Currently, it simply compares
 <li>Example: if a user choose a [OFFENSIVE] the probability of scoring a goal is increase, but also the probability of defence reduces</li>
 </ul>
 
-<h2>Additional Features:</h2>
+<h2>Additional Features Will be Implemented:</h2>
 <ul>
 <li>A user can create one’s own team</li>
 <li>A user can create/edit a player</li>
-<li>(after implement game logic) tournament mode will be implemented</li>
 </ul>
 
+<h2>TODO:</h2>
+<ol>
+<li>Game Logic (Competition) - done</li>
+<li>Input - done</li>
+<li>Easy Version - done</li>
+<li>Opponent Corresponding</li>
+<li>Demo Version</li>
+<li>Other Features (Create/edit/delete Players, Teams)</li>
+<li>GUI</li>
+</ol>
+
 <br><br>
-updated: August 19, 2022
+updated: August 27, 2022
