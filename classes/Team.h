@@ -1,4 +1,4 @@
-#pragma once
+#pragma once 
 #include <string>
 #include <vector>
 #include <iostream>
@@ -12,23 +12,27 @@ using std::vector;
 
 class Team {
 public:
-    Team();
+    string teamName; //change to team name
+    int playersLim = 14;
+    int formation[3] = {4,3,3}; //CURRENT, DEFAULT = 433
+
+    int defSum = 0;
+    int midSum = 0;
+    int offendSum = 0;
+
+    int curPlayers = 0;
+    Player* head;
+
+
     Team(string name);
 
-    string nameGetter ();
-    void playersGetter ();
-    int overAllGetter ();
-    void overAllSetter (int n);
+    void addPlayer(string plrName, string pos, int age, int gok, int def, int att);
+    void delThisPlayer(string plrName);
 
-    void addPlayer(Player plr);
+    void updateOverall (Player* plr);
+    void updatePosition (Player* plr, string toPos);
+
+    void printPlayers ();
     
 private:
-    string name;
-    Player* players;
-    int playersLim = 14;
-    int curPlayers = 0;
-    int teamOverall;
-
-
-    void overAllCal (Player plr);
 };

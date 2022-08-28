@@ -8,29 +8,30 @@
 using namespace std;
 
 class Simulation {
-public:
-    Team* allTeams;
-    int maxTeam = 10;
-    int teamNum = 0;
-    
+public: 
     Simulation();
-    Simulation(Team home, Team away);
+    
     char startFunction (); // ASKS FOR A USER INPUT OPTION
+    void gameLoop(Team home, Team away);
 
-    void addTeam (Team& tm); //CREATES A TEAM(?)
-    void teamAllGetter ();
-
-    Team chosenTeam (string tm);
-
-private:
-    bool gameState;
+    bool gameState = false;
     int timeLine [5] = {25, 45, 60, 70, 85};
     int homeScore = 0;
     int awayScore = 0;
-    char tactic;
+    char tactic = 0;
     int currWinner = 2;
 
     void gameGUI (int timeStamp);
-    void gameLogic (Team & home, Team & away);
 
+    // this functions need for gmae input
+    Player* highestPlayer (Team & userTeam, string position, string toPosition);
+    void updateToDefence(Team & userTeam);
+    void updateToBalance(Team & userTeam);
+    void updateToOffence(Team & userTeam);
+    void gameInput (Team & userTeam);
+
+    bool competition (int userStat, int oppoStat);
+    void gameLogic (Team & userTeam, Team & oppoTeam);
+
+private:
 };

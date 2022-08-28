@@ -14,25 +14,22 @@ public:
     string name; 
     string pos; //position
     int age;
-    int att;
-    int def;
     int gok;
+    int def;
+    int att;
+    Player* next;
 
     // Default Constructor
     Player();
     
     // Create a Player Constructor
-    Player(string name, string pos, int age, int att, int def, int gok);
+    void createPlayer(string name, string pos, int age, int gok, int def, int att);
+    //void createPlayer(string name, string pos, int age, int att, int def, int gok);
+
+    Player* copyPlayer (const Player plr);
 
     // Name Getter
     string nameGetter ();
 private:   
-/* comment out for test 
-    string name; 
-    string pos; //position
-    int age;
-    int att;
-    int def;
-    int gok;
-*/
+
 };
