@@ -42,6 +42,7 @@ void Simulation::gameLoop(Team home, Team away){
     for (int i = 0; i < 5; i++) {
         this->gameGUI(this->timeLine[i]); //25, 45, 60, 70, 85
         this->gameInput(home);
+        opponentFormation(away);
         this->gameLogic(home, away); // [26->45] [45->60] [60->70] [70->85]
     }
     this->gameGUI(90);
@@ -261,6 +262,17 @@ bool Simulation::competition (int userStat, int oppoStat) {
     return scoredOrNot;
 }
 
+void Simulation::opponentFormation (Team & oppoTeam) {
+    if (homeScore < awayScore) {
+        updateToDefence(oppoTeam);
+    }
+    else if (homeScore == awayScore) {
+        updateToBalance(oppoTeam);
+    }
+    else if (homeScore > awayScore) {
+        updateToOffence(oppoTeam);
+    }
+}
 void Simulation::gameLogic (Team & userTeam, Team & oppoTeam) {
     bool res;
     

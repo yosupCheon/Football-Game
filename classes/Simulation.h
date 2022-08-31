@@ -31,6 +31,8 @@ public:
     void gameInput (Team & userTeam);
 
     bool competition (int userStat, int oppoStat);
+
+    void opponentFormation (Team & away);
     void gameLogic (Team & userTeam, Team & oppoTeam);
 
 private:
