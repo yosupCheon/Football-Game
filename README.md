@@ -32,7 +32,7 @@ If not working, then
 ![demo](src/img/fourth.png)
 ![demo](src/img/fifth.png)
 ![demo](src/img/sixth.png)
-Currently, only “Play” option is available and only a user can manage team; opponent is set to default formation (4-3-3) through out the game rounds. Three possible endings are available; Win, Draw and Lose.
+Currently, only “Play” option is available and only a user can manage team through out the game rounds. Three possible endings are available; Win, Draw and Lose.
 
 
 <h2>Game Logic</h2>
@@ -56,8 +56,9 @@ Currently, only “Play” option is available and only a user can manage team; 
 <li>Game Logic (Competition) - done</li>
 <li>Input - done</li>
 <li>Easy Version - done</li>
-<li>Opponent Corresponding</li>
-<li>Demo Version</li>
+<li>Opponent Features Corresponding to the Updated Score - done</li>
+<li>Demo Version - done</li>
+<li>Basic GUI</li>
 <li>Other Features (Create/edit/delete Players, Teams)</li>
 <li>GUI</li>
 </ol>
