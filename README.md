@@ -1,6 +1,5 @@
 # Football-Game
 
-
 <p>
 This is turn-based strategy football game that a user manage tactics (defensive, balance, offensive) to win a football match
 </p>
