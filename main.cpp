@@ -1,6 +1,7 @@
 #include "classes/Player.h"
 #include "classes/Team.h"
 #include "classes/Simulation.h"
+#include "classes/Gui.h"
 
 #include <iostream>
 #include <string>
@@ -54,6 +55,7 @@ int main () {
     team2.addPlayer ("t2ST2", "ST", 35, 10, 15, 70);
     team2.addPlayer ("t2ST3", "ST", 30, 20, 10, 80);
 
+    /*
     Simulation game;
     char startMenu = game.startFunction();
     if (startMenu == '1') {
@@ -69,6 +71,11 @@ int main () {
         cout << "BYE!!!" << endl;
         return 0;
     }
+    */
+    Gui testGui (team1, team2);
+    //cout << "test 5 " << endl;
+    testGui.guiDraw();
+
     cout << endl;
     cout <<"game over in main" << endl;
 
