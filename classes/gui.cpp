@@ -264,7 +264,6 @@ void Gui::gamePlay() {
         helperUserMidLine();
         helperUserDefenceLine(3);
     }
-    
     // FORMATIONS FOR A OPPONENT
     if (1){ //Defence
         helperOppoOffenceLine(2);
@@ -287,9 +286,12 @@ void Gui::gamePlay() {
     //DrawRectangle(fieldPosX, fieldPosY+50-5+100+100+100, 380, 10, PURPLE);
     //DrawRectangle(fieldPosX, fieldPosY+50-5+100+100+100+100, 380, 10, PURPLE);
 
-    
+    // TIME
+    int timePosX = fieldPosX+410, timePosY = fieldPosY+20;
+    DrawRectangle(timePosX, timePosY, 330, 180, WHITE);
+    DrawText("45:00", timePosX+115, timePosY+10, fontSize+10, BLACK);
     // SCORE BOARD
-    int optionPosX = fieldPosX+410, optionPosY = fieldPosY+20;
+    int optionPosX = fieldPosX+410, optionPosY = fieldPosY+20+50;
     DrawRectangle(optionPosX, optionPosY, 330, 180, YELLOW);
     //  Score
     DrawText("SCORE", optionPosX+110, optionPosY+10, fontSize, BLACK);
@@ -303,6 +305,7 @@ void Gui::gamePlay() {
 
 
     // TACTIC SELECTION
+    optionPosY -= 20;
     int selRecX = optionPosX + 20, selRecY = optionPosY+310;
     int selTxtX = optionPosX + 20, selTxtY = optionPosY+250;
     fontSize = 30;
